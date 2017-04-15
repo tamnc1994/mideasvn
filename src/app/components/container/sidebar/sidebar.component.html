@@ -1,0 +1,110 @@
+<div class="logo">
+    <div class="logo-normal">
+        <a class="simple-text" href="https://www.creative-tim.com">
+            10minutes
+        </a>
+    </div>
+    <div class="logo-img">
+        <!--<img src="/assets/img/angular2-logo-white.png">-->
+    </div>
+</div>
+<div class="sidebar-wrapper">
+
+    <div class="user">
+        <div class="photo">
+            <img src="../assets/img/faces/avatar.jpg">
+        </div>
+        <div class="info">
+            <a class="collapsed" data-toggle="collapse" href="#collapseExample">
+                        <span>
+                            Tania Andrew
+                            <b class="caret"></b>
+                        </span>
+            </a>
+            <div class="collapse" id="collapseExample">
+                <ul class="nav">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="sidebar-mini">MP</span>
+                            <span class="sidebar-normal">My Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="sidebar-mini">EP</span>
+                            <span class="sidebar-normal">Edit Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="sidebar-mini">S</span>
+                            <span class="sidebar-normal">Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="nav-container">
+        <ul class="nav">
+
+            <li routerlinkactive="active" class="active visible">
+                <a href="#/dashboard">
+                    <i class="material-icons">dashboard</i>
+                    <p>Dashboard</p>
+                </a>
+            </li>
+
+            <li routerlinkactive="active">
+                <a data-toggle="collapse" href="#hana-agent-mgr">
+                    <i class="fa fa-user-plus"></i>
+                    <p>Trợ lí
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse" id="hana-agent-mgr">
+                    <ul class="nav">
+                        <li routerlinkactive="active">
+                            <a routerLink="/agent-mgr" routerLinkActive="active">
+                                <span class="sidebar-normal"><i class="fa fa-plus" aria-hidden="true"></i>Thêm</span>
+                            </a>
+                        </li>
+                        <li routerlinkactive="active">
+                            <a routerLink="/agent-search" routerLinkActive="active">
+                                <span class="sidebar-normal"><i class="fa fa-list" aria-hidden="true"></i>Danh sách</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </li>
+
+            <!--<li routerlinkactive="active">-->
+                <!--<a data-toggle="collapse" href="#hana-process">-->
+                    <!--<i class="fa fa-spinner"></i>-->
+                    <!--<p>Quy trình-->
+                        <!--<b class="caret"></b>-->
+                    <!--</p>-->
+                <!--</a>-->
+                <!--<div class="collapse" id="hana-process">-->
+                    <!--<ul class="nav">-->
+                        <!--<li routerlinkactive="active">-->
+                            <!--<a routerLink="/process-mgr" routerLinkActive="active">-->
+                                <!--<span class="sidebar-normal"><i class="fa fa-plus" aria-hidden="true"></i>Thêm</span>-->
+                            <!--</a>-->
+                        <!--</li>-->
+                        <!--<li routerlinkactive="active">-->
+                            <!--<a routerLink="/process-search">-->
+                                <!--<span class="sidebar-normal"><i class="fa fa-list" aria-hidden="true"></i>Danh sách</span>-->
+                            <!--</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+
+                <!--</div>-->
+            <!--</li>-->
+
+
+
+        </ul>
+        <div class="sidebar-moving-tab" style="transform: translate3d(0px, 5px, 0px);"></div></div>
+</div>
